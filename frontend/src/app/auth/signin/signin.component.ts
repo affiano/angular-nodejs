@@ -12,6 +12,7 @@ export class SigninComponent implements OnInit {
   loginInvalid = false;
 
   ngOnInit(): void {
+    console.log('hello')
   }
 
 }

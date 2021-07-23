@@ -17,6 +17,7 @@ export class CommonComponent implements OnInit {
   showSubSubMenu: boolean = false;
 
   ngOnInit(): void {
+    console.log('common')
   }
 
   mouseenter() {
